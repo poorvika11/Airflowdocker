@@ -1,0 +1,54 @@
+[2023-06-01T13:02:14.921+0000] {taskinstance.py:1087} INFO - Dependencies all met for <TaskInstance: dag_with_postgres_operator_v03.insert_into_table manual__2023-06-01T11:34:44.645307+00:00 [queued]>
+[2023-06-01T13:02:14.937+0000] {taskinstance.py:1087} INFO - Dependencies all met for <TaskInstance: dag_with_postgres_operator_v03.insert_into_table manual__2023-06-01T11:34:44.645307+00:00 [queued]>
+[2023-06-01T13:02:14.939+0000] {taskinstance.py:1283} INFO - 
+--------------------------------------------------------------------------------
+[2023-06-01T13:02:14.940+0000] {taskinstance.py:1284} INFO - Starting attempt 6 of 8
+[2023-06-01T13:02:14.942+0000] {taskinstance.py:1285} INFO - 
+--------------------------------------------------------------------------------
+[2023-06-01T13:02:14.966+0000] {taskinstance.py:1304} INFO - Executing <Task(PostgresOperator): insert_into_table> on 2023-06-01 11:34:44.645307+00:00
+[2023-06-01T13:02:14.973+0000] {standard_task_runner.py:55} INFO - Started process 282 to run task
+[2023-06-01T13:02:14.979+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'dag_with_postgres_operator_v03', 'insert_into_table', 'manual__2023-06-01T11:34:44.645307+00:00', '--job-id', '955', '--raw', '--subdir', 'DAGS_FOLDER/postgres.py', '--cfg-path', '/tmp/tmplciyd7ix']
+[2023-06-01T13:02:14.981+0000] {standard_task_runner.py:83} INFO - Job 955: Subtask insert_into_table
+[2023-06-01T13:02:15.083+0000] {task_command.py:389} INFO - Running <TaskInstance: dag_with_postgres_operator_v03.insert_into_table manual__2023-06-01T11:34:44.645307+00:00 [running]> on host 687ba427e841
+[2023-06-01T13:02:15.133+0000] {abstractoperator.py:596} ERROR - Exception rendering Jinja template for task 'insert_into_table', field 'sql'. Template: "\n            insert into dag_runs (dt, dag_id) values ('{{ ds }}', '{{ dag.dag_id }}','{{dag.run_status}}','{{ds}}','{{ds}}')\n        "
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/abstractoperator.py", line 589, in _do_render_template_fields
+    seen_oids,
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/abstractoperator.py", line 646, in render_template
+    return render_template_to_string(template, context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/helpers.py", line 288, in render_template_to_string
+    return render_template(template, cast(MutableMapping[str, Any], context), native=False)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/helpers.py", line 283, in render_template
+    return "".join(nodes)
+  File "<template>", line 18, in root
+  File "/home/airflow/.local/lib/python3.7/site-packages/jinja2/runtime.py", line 852, in _fail_with_undefined_error
+    raise self._undefined_exception(self._undefined_message)
+jinja2.exceptions.UndefinedError: '***.models.dag.DAG object' has no attribute 'run_status'
+[2023-06-01T13:02:15.138+0000] {taskinstance.py:1772} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1378, in _run_raw_task
+    self._execute_task_with_callbacks(context, test_mode)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1497, in _execute_task_with_callbacks
+    task_orig = self.render_templates(context=context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 2119, in render_templates
+    original_task.render_template_fields(context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 1196, in render_template_fields
+    self._do_render_template_fields(self, self.template_fields, context, jinja_env, set())
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/session.py", line 75, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/abstractoperator.py", line 589, in _do_render_template_fields
+    seen_oids,
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/abstractoperator.py", line 646, in render_template
+    return render_template_to_string(template, context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/helpers.py", line 288, in render_template_to_string
+    return render_template(template, cast(MutableMapping[str, Any], context), native=False)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/helpers.py", line 283, in render_template
+    return "".join(nodes)
+  File "<template>", line 18, in root
+  File "/home/airflow/.local/lib/python3.7/site-packages/jinja2/runtime.py", line 852, in _fail_with_undefined_error
+    raise self._undefined_exception(self._undefined_message)
+jinja2.exceptions.UndefinedError: '***.models.dag.DAG object' has no attribute 'run_status'
+[2023-06-01T13:02:15.153+0000] {taskinstance.py:1327} INFO - Marking task as UP_FOR_RETRY. dag_id=dag_with_postgres_operator_v03, task_id=insert_into_table, execution_date=20230601T113444, start_date=20230601T130214, end_date=20230601T130215
+[2023-06-01T13:02:15.172+0000] {standard_task_runner.py:105} ERROR - Failed to execute job 955 for task insert_into_table ('***.models.dag.DAG object' has no attribute 'run_status'; 282)
+[2023-06-01T13:02:15.193+0000] {local_task_job.py:159} INFO - Task exited with return code 1
+[2023-06-01T13:02:15.222+0000] {taskinstance.py:2582} INFO - 0 downstream tasks scheduled from follow-on schedule check
