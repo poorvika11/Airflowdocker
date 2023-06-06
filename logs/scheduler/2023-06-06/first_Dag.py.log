@@ -1034,3 +1034,10 @@
 [2023-06-06T08:55:56.157+0000] {logging_mixin.py:137} INFO - [2023-06-06T08:55:56.157+0000] {dag.py:2676} INFO - Sync 1 DAGs
 [2023-06-06T08:55:56.201+0000] {logging_mixin.py:137} INFO - [2023-06-06T08:55:56.200+0000] {dag.py:3427} INFO - Setting next_dagrun for our_first_dag_v5 to 2021-07-30T00:00:00+00:00, run_after=2021-07-31T00:00:00+00:00
 [2023-06-06T08:55:56.236+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/first_Dag.py took 0.184 seconds
+[2023-06-06T08:56:26.982+0000] {processor.py:153} INFO - Started process (PID=642) to work on /opt/airflow/dags/first_Dag.py
+[2023-06-06T08:56:26.983+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/first_Dag.py for tasks to queue
+[2023-06-06T08:56:26.985+0000] {logging_mixin.py:137} INFO - [2023-06-06T08:56:26.985+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/first_Dag.py
+[2023-06-06T08:56:27.010+0000] {processor.py:753} INFO - DAG(s) dict_keys(['our_first_dag_v5']) retrieved from /opt/airflow/dags/first_Dag.py
+[2023-06-06T08:56:27.061+0000] {logging_mixin.py:137} INFO - [2023-06-06T08:56:27.061+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-06-06T08:56:27.101+0000] {logging_mixin.py:137} INFO - [2023-06-06T08:56:27.101+0000] {dag.py:3427} INFO - Setting next_dagrun for our_first_dag_v5 to 2021-07-30T00:00:00+00:00, run_after=2021-07-31T00:00:00+00:00
+[2023-06-06T08:56:27.127+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/first_Dag.py took 0.150 seconds
