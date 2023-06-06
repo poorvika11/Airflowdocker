@@ -1200,3 +1200,10 @@ DETAIL:  Key (dag_id)=(check_all_dags_run) already exists.
 [2023-06-06T09:02:36.779+0000] {logging_mixin.py:137} INFO - [2023-06-06T09:02:36.779+0000] {dag.py:2676} INFO - Sync 1 DAGs
 [2023-06-06T09:02:36.837+0000] {logging_mixin.py:137} INFO - [2023-06-06T09:02:36.836+0000] {dag.py:3427} INFO - Setting next_dagrun for check_all_dags_run to 2023-06-05T00:00:00+00:00, run_after=2023-06-06T00:00:00+00:00
 [2023-06-06T09:02:36.874+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/tocheckStime.py took 0.255 seconds
+[2023-06-06T09:03:07.404+0000] {processor.py:153} INFO - Started process (PID=1156) to work on /opt/airflow/dags/tocheckStime.py
+[2023-06-06T09:03:07.407+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/tocheckStime.py for tasks to queue
+[2023-06-06T09:03:07.410+0000] {logging_mixin.py:137} INFO - [2023-06-06T09:03:07.409+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tocheckStime.py
+[2023-06-06T09:03:07.443+0000] {processor.py:753} INFO - DAG(s) dict_keys(['check_all_dags_run']) retrieved from /opt/airflow/dags/tocheckStime.py
+[2023-06-06T09:03:07.505+0000] {logging_mixin.py:137} INFO - [2023-06-06T09:03:07.505+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-06-06T09:03:07.582+0000] {logging_mixin.py:137} INFO - [2023-06-06T09:03:07.582+0000] {dag.py:3427} INFO - Setting next_dagrun for check_all_dags_run to 2023-06-05T00:00:00+00:00, run_after=2023-06-06T00:00:00+00:00
+[2023-06-06T09:03:07.614+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/tocheckStime.py took 0.215 seconds
