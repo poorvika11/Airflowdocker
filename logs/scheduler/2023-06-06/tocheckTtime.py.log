@@ -1041,3 +1041,87 @@
 [2023-06-06T08:56:27.045+0000] {logging_mixin.py:137} INFO - [2023-06-06T08:56:27.044+0000] {dag.py:2676} INFO - Sync 1 DAGs
 [2023-06-06T08:56:27.089+0000] {logging_mixin.py:137} INFO - [2023-06-06T08:56:27.089+0000] {dag.py:3427} INFO - Setting next_dagrun for check_all_dags_run to 2023-06-05T00:00:00+00:00, run_after=2023-06-06T00:00:00+00:00
 [2023-06-06T08:56:27.116+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/tocheckTtime.py took 0.134 seconds
+[2023-06-06T08:56:57.265+0000] {processor.py:153} INFO - Started process (PID=682) to work on /opt/airflow/dags/tocheckTtime.py
+[2023-06-06T08:56:57.270+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/tocheckTtime.py for tasks to queue
+[2023-06-06T08:56:57.273+0000] {logging_mixin.py:137} INFO - [2023-06-06T08:56:57.273+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tocheckTtime.py
+[2023-06-06T08:56:57.325+0000] {processor.py:753} INFO - DAG(s) dict_keys(['check_all_dags_run']) retrieved from /opt/airflow/dags/tocheckTtime.py
+[2023-06-06T08:56:57.403+0000] {logging_mixin.py:137} INFO - [2023-06-06T08:56:57.403+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-06-06T08:56:57.561+0000] {logging_mixin.py:137} INFO - [2023-06-06T08:56:57.560+0000] {dag.py:3427} INFO - Setting next_dagrun for check_all_dags_run to 2023-06-05T00:00:00+00:00, run_after=2023-06-06T00:00:00+00:00
+[2023-06-06T08:56:57.740+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/tocheckTtime.py took 0.484 seconds
+[2023-06-06T08:57:28.622+0000] {processor.py:153} INFO - Started process (PID=716) to work on /opt/airflow/dags/tocheckTtime.py
+[2023-06-06T08:57:28.624+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/tocheckTtime.py for tasks to queue
+[2023-06-06T08:57:28.626+0000] {logging_mixin.py:137} INFO - [2023-06-06T08:57:28.626+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tocheckTtime.py
+[2023-06-06T08:57:28.659+0000] {processor.py:753} INFO - DAG(s) dict_keys(['check_all_dags_run']) retrieved from /opt/airflow/dags/tocheckTtime.py
+[2023-06-06T08:57:28.705+0000] {logging_mixin.py:137} INFO - [2023-06-06T08:57:28.705+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-06-06T08:57:28.756+0000] {logging_mixin.py:137} INFO - [2023-06-06T08:57:28.755+0000] {dag.py:3427} INFO - Setting next_dagrun for check_all_dags_run to 2023-06-05T00:00:00+00:00, run_after=2023-06-06T00:00:00+00:00
+[2023-06-06T08:57:28.790+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/tocheckTtime.py took 0.173 seconds
+[2023-06-06T08:57:59.542+0000] {processor.py:153} INFO - Started process (PID=764) to work on /opt/airflow/dags/tocheckTtime.py
+[2023-06-06T08:57:59.544+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/tocheckTtime.py for tasks to queue
+[2023-06-06T08:57:59.546+0000] {logging_mixin.py:137} INFO - [2023-06-06T08:57:59.546+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tocheckTtime.py
+[2023-06-06T08:57:59.570+0000] {processor.py:753} INFO - DAG(s) dict_keys(['check_all_dags_run']) retrieved from /opt/airflow/dags/tocheckTtime.py
+[2023-06-06T08:57:59.608+0000] {logging_mixin.py:137} INFO - [2023-06-06T08:57:59.608+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-06-06T08:57:59.658+0000] {logging_mixin.py:137} INFO - [2023-06-06T08:57:59.658+0000] {dag.py:3427} INFO - Setting next_dagrun for check_all_dags_run to 2023-06-05T00:00:00+00:00, run_after=2023-06-06T00:00:00+00:00
+[2023-06-06T08:57:59.687+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/tocheckTtime.py took 0.149 seconds
+[2023-06-06T08:58:30.416+0000] {processor.py:153} INFO - Started process (PID=798) to work on /opt/airflow/dags/tocheckTtime.py
+[2023-06-06T08:58:30.419+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/tocheckTtime.py for tasks to queue
+[2023-06-06T08:58:30.421+0000] {logging_mixin.py:137} INFO - [2023-06-06T08:58:30.421+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tocheckTtime.py
+[2023-06-06T08:58:30.443+0000] {processor.py:753} INFO - DAG(s) dict_keys(['check_all_dags_run']) retrieved from /opt/airflow/dags/tocheckTtime.py
+[2023-06-06T08:58:30.471+0000] {logging_mixin.py:137} INFO - [2023-06-06T08:58:30.471+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-06-06T08:58:30.510+0000] {logging_mixin.py:137} INFO - [2023-06-06T08:58:30.510+0000] {dag.py:3427} INFO - Setting next_dagrun for check_all_dags_run to 2023-06-05T00:00:00+00:00, run_after=2023-06-06T00:00:00+00:00
+[2023-06-06T08:58:30.541+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/tocheckTtime.py took 0.130 seconds
+[2023-06-06T08:59:01.141+0000] {processor.py:153} INFO - Started process (PID=841) to work on /opt/airflow/dags/tocheckTtime.py
+[2023-06-06T08:59:01.146+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/tocheckTtime.py for tasks to queue
+[2023-06-06T08:59:01.149+0000] {logging_mixin.py:137} INFO - [2023-06-06T08:59:01.148+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tocheckTtime.py
+[2023-06-06T08:59:01.184+0000] {processor.py:753} INFO - DAG(s) dict_keys(['check_all_dags_run']) retrieved from /opt/airflow/dags/tocheckTtime.py
+[2023-06-06T08:59:01.235+0000] {logging_mixin.py:137} INFO - [2023-06-06T08:59:01.235+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-06-06T08:59:01.291+0000] {logging_mixin.py:137} INFO - [2023-06-06T08:59:01.291+0000] {dag.py:3427} INFO - Setting next_dagrun for check_all_dags_run to 2023-06-05T00:00:00+00:00, run_after=2023-06-06T00:00:00+00:00
+[2023-06-06T08:59:01.327+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/tocheckTtime.py took 0.191 seconds
+[2023-06-06T08:59:32.145+0000] {processor.py:153} INFO - Started process (PID=883) to work on /opt/airflow/dags/tocheckTtime.py
+[2023-06-06T08:59:32.149+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/tocheckTtime.py for tasks to queue
+[2023-06-06T08:59:32.153+0000] {logging_mixin.py:137} INFO - [2023-06-06T08:59:32.153+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tocheckTtime.py
+[2023-06-06T08:59:32.202+0000] {processor.py:753} INFO - DAG(s) dict_keys(['check_all_dags_run']) retrieved from /opt/airflow/dags/tocheckTtime.py
+[2023-06-06T08:59:32.286+0000] {logging_mixin.py:137} INFO - [2023-06-06T08:59:32.286+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-06-06T08:59:32.407+0000] {logging_mixin.py:137} INFO - [2023-06-06T08:59:32.407+0000] {dag.py:3427} INFO - Setting next_dagrun for check_all_dags_run to 2023-06-05T00:00:00+00:00, run_after=2023-06-06T00:00:00+00:00
+[2023-06-06T08:59:32.534+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/tocheckTtime.py took 0.399 seconds
+[2023-06-06T09:00:03.304+0000] {processor.py:153} INFO - Started process (PID=917) to work on /opt/airflow/dags/tocheckTtime.py
+[2023-06-06T09:00:03.306+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/tocheckTtime.py for tasks to queue
+[2023-06-06T09:00:03.308+0000] {logging_mixin.py:137} INFO - [2023-06-06T09:00:03.308+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tocheckTtime.py
+[2023-06-06T09:00:03.338+0000] {processor.py:753} INFO - DAG(s) dict_keys(['check_all_dags_run']) retrieved from /opt/airflow/dags/tocheckTtime.py
+[2023-06-06T09:00:03.434+0000] {logging_mixin.py:137} INFO - [2023-06-06T09:00:03.434+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-06-06T09:00:03.467+0000] {logging_mixin.py:137} INFO - [2023-06-06T09:00:03.467+0000] {dag.py:3427} INFO - Setting next_dagrun for check_all_dags_run to 2023-06-05T00:00:00+00:00, run_after=2023-06-06T00:00:00+00:00
+[2023-06-06T09:00:03.490+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/tocheckTtime.py took 0.191 seconds
+[2023-06-06T09:00:33.934+0000] {processor.py:153} INFO - Started process (PID=966) to work on /opt/airflow/dags/tocheckTtime.py
+[2023-06-06T09:00:33.937+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/tocheckTtime.py for tasks to queue
+[2023-06-06T09:00:33.940+0000] {logging_mixin.py:137} INFO - [2023-06-06T09:00:33.940+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tocheckTtime.py
+[2023-06-06T09:00:33.978+0000] {processor.py:753} INFO - DAG(s) dict_keys(['check_all_dags_run']) retrieved from /opt/airflow/dags/tocheckTtime.py
+[2023-06-06T09:00:34.036+0000] {logging_mixin.py:137} INFO - [2023-06-06T09:00:34.036+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-06-06T09:00:34.073+0000] {logging_mixin.py:137} INFO - [2023-06-06T09:00:34.073+0000] {dag.py:3427} INFO - Setting next_dagrun for check_all_dags_run to 2023-06-05T00:00:00+00:00, run_after=2023-06-06T00:00:00+00:00
+[2023-06-06T09:00:34.102+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/tocheckTtime.py took 0.175 seconds
+[2023-06-06T09:01:04.312+0000] {processor.py:153} INFO - Started process (PID=1001) to work on /opt/airflow/dags/tocheckTtime.py
+[2023-06-06T09:01:04.313+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/tocheckTtime.py for tasks to queue
+[2023-06-06T09:01:04.315+0000] {logging_mixin.py:137} INFO - [2023-06-06T09:01:04.315+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tocheckTtime.py
+[2023-06-06T09:01:04.345+0000] {processor.py:753} INFO - DAG(s) dict_keys(['check_all_dags_run']) retrieved from /opt/airflow/dags/tocheckTtime.py
+[2023-06-06T09:01:04.461+0000] {logging_mixin.py:137} INFO - [2023-06-06T09:01:04.461+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-06-06T09:01:04.502+0000] {logging_mixin.py:137} INFO - [2023-06-06T09:01:04.502+0000] {dag.py:3427} INFO - Setting next_dagrun for check_all_dags_run to 2023-06-05T00:00:00+00:00, run_after=2023-06-06T00:00:00+00:00
+[2023-06-06T09:01:04.531+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/tocheckTtime.py took 0.224 seconds
+[2023-06-06T09:01:34.968+0000] {processor.py:153} INFO - Started process (PID=1036) to work on /opt/airflow/dags/tocheckTtime.py
+[2023-06-06T09:01:34.971+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/tocheckTtime.py for tasks to queue
+[2023-06-06T09:01:34.973+0000] {logging_mixin.py:137} INFO - [2023-06-06T09:01:34.973+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tocheckTtime.py
+[2023-06-06T09:01:35.012+0000] {processor.py:753} INFO - DAG(s) dict_keys(['check_all_dags_run']) retrieved from /opt/airflow/dags/tocheckTtime.py
+[2023-06-06T09:01:35.079+0000] {logging_mixin.py:137} INFO - [2023-06-06T09:01:35.078+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-06-06T09:01:35.131+0000] {logging_mixin.py:137} INFO - [2023-06-06T09:01:35.131+0000] {dag.py:3427} INFO - Setting next_dagrun for check_all_dags_run to 2023-06-05T00:00:00+00:00, run_after=2023-06-06T00:00:00+00:00
+[2023-06-06T09:01:35.165+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/tocheckTtime.py took 0.203 seconds
+[2023-06-06T09:02:05.556+0000] {processor.py:153} INFO - Started process (PID=1083) to work on /opt/airflow/dags/tocheckTtime.py
+[2023-06-06T09:02:05.558+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/tocheckTtime.py for tasks to queue
+[2023-06-06T09:02:05.560+0000] {logging_mixin.py:137} INFO - [2023-06-06T09:02:05.560+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tocheckTtime.py
+[2023-06-06T09:02:05.592+0000] {processor.py:753} INFO - DAG(s) dict_keys(['check_all_dags_run']) retrieved from /opt/airflow/dags/tocheckTtime.py
+[2023-06-06T09:02:05.698+0000] {logging_mixin.py:137} INFO - [2023-06-06T09:02:05.698+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-06-06T09:02:05.735+0000] {logging_mixin.py:137} INFO - [2023-06-06T09:02:05.735+0000] {dag.py:3427} INFO - Setting next_dagrun for check_all_dags_run to 2023-06-05T00:00:00+00:00, run_after=2023-06-06T00:00:00+00:00
+[2023-06-06T09:02:05.763+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/tocheckTtime.py took 0.213 seconds
+[2023-06-06T09:02:36.617+0000] {processor.py:153} INFO - Started process (PID=1119) to work on /opt/airflow/dags/tocheckTtime.py
+[2023-06-06T09:02:36.620+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/tocheckTtime.py for tasks to queue
+[2023-06-06T09:02:36.622+0000] {logging_mixin.py:137} INFO - [2023-06-06T09:02:36.622+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tocheckTtime.py
+[2023-06-06T09:02:36.655+0000] {processor.py:753} INFO - DAG(s) dict_keys(['check_all_dags_run']) retrieved from /opt/airflow/dags/tocheckTtime.py
+[2023-06-06T09:02:36.716+0000] {logging_mixin.py:137} INFO - [2023-06-06T09:02:36.716+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-06-06T09:02:36.762+0000] {logging_mixin.py:137} INFO - [2023-06-06T09:02:36.762+0000] {dag.py:3427} INFO - Setting next_dagrun for check_all_dags_run to 2023-06-05T00:00:00+00:00, run_after=2023-06-06T00:00:00+00:00
+[2023-06-06T09:02:36.794+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/tocheckTtime.py took 0.182 seconds
