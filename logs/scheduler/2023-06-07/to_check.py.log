@@ -559,3 +559,24 @@
 [2023-06-07T11:12:01.715+0000] {logging_mixin.py:137} INFO - [2023-06-07T11:12:01.715+0000] {dag.py:2676} INFO - Sync 1 DAGs
 [2023-06-07T11:12:01.750+0000] {logging_mixin.py:137} INFO - [2023-06-07T11:12:01.750+0000] {dag.py:3427} INFO - Setting next_dagrun for dag_run_check to None, run_after=None
 [2023-06-07T11:12:01.773+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/to_check.py took 0.171 seconds
+[2023-06-07T11:12:31.976+0000] {processor.py:153} INFO - Started process (PID=6385) to work on /opt/airflow/dags/to_check.py
+[2023-06-07T11:12:31.980+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/to_check.py for tasks to queue
+[2023-06-07T11:12:31.983+0000] {logging_mixin.py:137} INFO - [2023-06-07T11:12:31.982+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/to_check.py
+[2023-06-07T11:12:32.037+0000] {processor.py:753} INFO - DAG(s) dict_keys(['dag_run_check']) retrieved from /opt/airflow/dags/to_check.py
+[2023-06-07T11:12:32.103+0000] {logging_mixin.py:137} INFO - [2023-06-07T11:12:32.103+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-06-07T11:12:32.151+0000] {logging_mixin.py:137} INFO - [2023-06-07T11:12:32.151+0000] {dag.py:3427} INFO - Setting next_dagrun for dag_run_check to None, run_after=None
+[2023-06-07T11:12:32.186+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/to_check.py took 0.216 seconds
+[2023-06-07T11:13:02.388+0000] {processor.py:153} INFO - Started process (PID=6431) to work on /opt/airflow/dags/to_check.py
+[2023-06-07T11:13:02.391+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/to_check.py for tasks to queue
+[2023-06-07T11:13:02.393+0000] {logging_mixin.py:137} INFO - [2023-06-07T11:13:02.393+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/to_check.py
+[2023-06-07T11:13:02.439+0000] {processor.py:753} INFO - DAG(s) dict_keys(['dag_run_check']) retrieved from /opt/airflow/dags/to_check.py
+[2023-06-07T11:13:02.482+0000] {logging_mixin.py:137} INFO - [2023-06-07T11:13:02.482+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-06-07T11:13:02.512+0000] {logging_mixin.py:137} INFO - [2023-06-07T11:13:02.512+0000] {dag.py:3427} INFO - Setting next_dagrun for dag_run_check to None, run_after=None
+[2023-06-07T11:13:02.531+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/to_check.py took 0.148 seconds
+[2023-06-07T11:13:32.822+0000] {processor.py:153} INFO - Started process (PID=6463) to work on /opt/airflow/dags/to_check.py
+[2023-06-07T11:13:32.824+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/to_check.py for tasks to queue
+[2023-06-07T11:13:32.826+0000] {logging_mixin.py:137} INFO - [2023-06-07T11:13:32.825+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/to_check.py
+[2023-06-07T11:13:32.859+0000] {processor.py:753} INFO - DAG(s) dict_keys(['dag_run_check']) retrieved from /opt/airflow/dags/to_check.py
+[2023-06-07T11:13:32.907+0000] {logging_mixin.py:137} INFO - [2023-06-07T11:13:32.907+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-06-07T11:13:32.938+0000] {logging_mixin.py:137} INFO - [2023-06-07T11:13:32.938+0000] {dag.py:3427} INFO - Setting next_dagrun for dag_run_check to None, run_after=None
+[2023-06-07T11:13:32.956+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/to_check.py took 0.139 seconds
