@@ -19790,3 +19790,14 @@ File Path                            PID    Runtime      # DAGs    # Errors  Las
 /opt/airflow/dags/first_Dag.py                                1           0  0.18s           2023-06-07T11:14:04
 /opt/airflow/dags/to_check.py                                 1           0  0.18s           2023-06-07T11:14:03
 ================================================================================
+[2023-06-07T11:14:41.867+0000] {manager.py:851} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/main_task_DAG.py                            0           1  0.09s           2023-06-07T11:14:34
+/opt/airflow/dags/dag_python_opr.py                           1           0  0.25s           2023-06-07T11:14:36
+/opt/airflow/dags/first_Dag.py                                1           0  0.23s           2023-06-07T11:14:34
+/opt/airflow/dags/to_check.py                                 1           0  0.19s           2023-06-07T11:14:33
+================================================================================
