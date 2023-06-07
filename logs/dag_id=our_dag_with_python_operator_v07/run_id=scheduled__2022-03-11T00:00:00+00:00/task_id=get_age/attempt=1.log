@@ -21,3 +21,26 @@ AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-03-11T00:00:00+00:00
 [2023-05-30T12:32:53.632+0000] {taskinstance.py:1327} INFO - Marking task as SUCCESS. dag_id=our_dag_with_python_operator_v07, task_id=get_age, execution_date=20220311T000000, start_date=20230530T123252, end_date=20230530T123253
 [2023-05-30T12:32:53.727+0000] {local_task_job.py:159} INFO - Task exited with return code 0
 [2023-05-30T12:32:53.799+0000] {taskinstance.py:2582} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2023-06-07T06:37:01.207+0000] {taskinstance.py:1087} INFO - Dependencies all met for <TaskInstance: our_dag_with_python_operator_v07.get_age scheduled__2022-03-11T00:00:00+00:00 [queued]>
+[2023-06-07T06:37:01.272+0000] {taskinstance.py:1087} INFO - Dependencies all met for <TaskInstance: our_dag_with_python_operator_v07.get_age scheduled__2022-03-11T00:00:00+00:00 [queued]>
+[2023-06-07T06:37:01.274+0000] {taskinstance.py:1283} INFO - 
+--------------------------------------------------------------------------------
+[2023-06-07T06:37:01.276+0000] {taskinstance.py:1284} INFO - Starting attempt 1 of 6
+[2023-06-07T06:37:01.278+0000] {taskinstance.py:1285} INFO - 
+--------------------------------------------------------------------------------
+[2023-06-07T06:37:01.366+0000] {taskinstance.py:1304} INFO - Executing <Task(PythonOperator): get_age> on 2022-03-11 00:00:00+00:00
+[2023-06-07T06:37:01.381+0000] {standard_task_runner.py:55} INFO - Started process 2915 to run task
+[2023-06-07T06:37:01.462+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'our_dag_with_python_operator_v07', 'get_age', 'scheduled__2022-03-11T00:00:00+00:00', '--job-id', '1903', '--raw', '--subdir', 'DAGS_FOLDER/dag_python_opr.py', '--cfg-path', '/tmp/tmp490aoqve']
+[2023-06-07T06:37:01.471+0000] {standard_task_runner.py:83} INFO - Job 1903: Subtask get_age
+[2023-06-07T06:37:02.069+0000] {task_command.py:389} INFO - Running <TaskInstance: our_dag_with_python_operator_v07.get_age scheduled__2022-03-11T00:00:00+00:00 [running]> on host 026ed797f3b3
+[2023-06-07T06:37:02.757+0000] {taskinstance.py:1513} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=coder2j
+AIRFLOW_CTX_DAG_ID=our_dag_with_python_operator_v07
+AIRFLOW_CTX_TASK_ID=get_age
+AIRFLOW_CTX_EXECUTION_DATE=2022-03-11T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-03-11T00:00:00+00:00
+[2023-06-07T06:37:02.852+0000] {python.py:177} INFO - Done. Returned value was: None
+[2023-06-07T06:37:02.911+0000] {taskinstance.py:1327} INFO - Marking task as SUCCESS. dag_id=our_dag_with_python_operator_v07, task_id=get_age, execution_date=20220311T000000, start_date=20230607T063701, end_date=20230607T063702
+[2023-06-07T06:37:03.078+0000] {local_task_job.py:159} INFO - Task exited with return code 0
+[2023-06-07T06:37:03.291+0000] {taskinstance.py:2582} INFO - 0 downstream tasks scheduled from follow-on schedule check
