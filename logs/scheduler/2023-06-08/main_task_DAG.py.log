@@ -1,0 +1,752 @@
+[2023-06-08T09:51:14.066+0000] {processor.py:153} INFO - Started process (PID=51) to work on /opt/airflow/dags/main_task_DAG.py
+[2023-06-08T09:51:14.069+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/main_task_DAG.py for tasks to queue
+[2023-06-08T09:51:14.071+0000] {logging_mixin.py:137} INFO - [2023-06-08T09:51:14.071+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/main_task_DAG.py
+[2023-06-08T09:51:14.084+0000] {logging_mixin.py:137} INFO - [2023-06-08T09:51:14.079+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/main_task_DAG.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/main_task_DAG.py", line 13, in <module>
+    user_name = os.environ["airflow"]
+  File "/usr/local/lib/python3.7/os.py", line 681, in __getitem__
+    raise KeyError(key) from None
+KeyError: 'airflow'
+[2023-06-08T09:51:14.086+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/main_task_DAG.py
+[2023-06-08T09:51:14.121+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/main_task_DAG.py took 0.062 seconds
+[2023-06-08T09:51:44.582+0000] {processor.py:153} INFO - Started process (PID=82) to work on /opt/airflow/dags/main_task_DAG.py
+[2023-06-08T09:51:44.585+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/main_task_DAG.py for tasks to queue
+[2023-06-08T09:51:44.588+0000] {logging_mixin.py:137} INFO - [2023-06-08T09:51:44.588+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/main_task_DAG.py
+[2023-06-08T09:51:44.604+0000] {logging_mixin.py:137} INFO - [2023-06-08T09:51:44.599+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/main_task_DAG.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/main_task_DAG.py", line 13, in <module>
+    user_name = os.environ["airflow"]
+  File "/usr/local/lib/python3.7/os.py", line 681, in __getitem__
+    raise KeyError(key) from None
+KeyError: 'airflow'
+[2023-06-08T09:51:44.606+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/main_task_DAG.py
+[2023-06-08T09:51:44.652+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/main_task_DAG.py took 0.075 seconds
+[2023-06-08T09:52:15.171+0000] {processor.py:153} INFO - Started process (PID=115) to work on /opt/airflow/dags/main_task_DAG.py
+[2023-06-08T09:52:15.174+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/main_task_DAG.py for tasks to queue
+[2023-06-08T09:52:15.177+0000] {logging_mixin.py:137} INFO - [2023-06-08T09:52:15.176+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/main_task_DAG.py
+[2023-06-08T09:52:15.194+0000] {logging_mixin.py:137} INFO - [2023-06-08T09:52:15.191+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/main_task_DAG.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/main_task_DAG.py", line 13, in <module>
+    user_name = os.environ["airflow"]
+  File "/usr/local/lib/python3.7/os.py", line 681, in __getitem__
+    raise KeyError(key) from None
+KeyError: 'airflow'
+[2023-06-08T09:52:15.196+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/main_task_DAG.py
+[2023-06-08T09:52:15.226+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/main_task_DAG.py took 0.062 seconds
+[2023-06-08T09:52:45.641+0000] {processor.py:153} INFO - Started process (PID=157) to work on /opt/airflow/dags/main_task_DAG.py
+[2023-06-08T09:52:45.643+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/main_task_DAG.py for tasks to queue
+[2023-06-08T09:52:45.645+0000] {logging_mixin.py:137} INFO - [2023-06-08T09:52:45.645+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/main_task_DAG.py
+[2023-06-08T09:52:45.662+0000] {logging_mixin.py:137} INFO - [2023-06-08T09:52:45.657+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/main_task_DAG.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/main_task_DAG.py", line 13, in <module>
+    user_name = os.environ["airflow"]
+  File "/usr/local/lib/python3.7/os.py", line 681, in __getitem__
+    raise KeyError(key) from None
+KeyError: 'airflow'
+[2023-06-08T09:52:45.664+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/main_task_DAG.py
+[2023-06-08T09:52:45.710+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/main_task_DAG.py took 0.075 seconds
+[2023-06-08T09:53:16.188+0000] {processor.py:153} INFO - Started process (PID=194) to work on /opt/airflow/dags/main_task_DAG.py
+[2023-06-08T09:53:16.190+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/main_task_DAG.py for tasks to queue
+[2023-06-08T09:53:16.192+0000] {logging_mixin.py:137} INFO - [2023-06-08T09:53:16.192+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/main_task_DAG.py
+[2023-06-08T09:53:16.201+0000] {logging_mixin.py:137} INFO - [2023-06-08T09:53:16.199+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/main_task_DAG.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/main_task_DAG.py", line 13, in <module>
+    user_name = os.environ["airflow"]
+  File "/usr/local/lib/python3.7/os.py", line 681, in __getitem__
+    raise KeyError(key) from None
+KeyError: 'airflow'
+[2023-06-08T09:53:16.202+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/main_task_DAG.py
+[2023-06-08T09:53:16.226+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/main_task_DAG.py took 0.043 seconds
+[2023-06-08T09:53:46.601+0000] {processor.py:153} INFO - Started process (PID=227) to work on /opt/airflow/dags/main_task_DAG.py
+[2023-06-08T09:53:46.603+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/main_task_DAG.py for tasks to queue
+[2023-06-08T09:53:46.605+0000] {logging_mixin.py:137} INFO - [2023-06-08T09:53:46.605+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/main_task_DAG.py
+[2023-06-08T09:53:46.615+0000] {logging_mixin.py:137} INFO - [2023-06-08T09:53:46.612+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/main_task_DAG.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/main_task_DAG.py", line 13, in <module>
+    user_name = os.environ["airflow"]
+  File "/usr/local/lib/python3.7/os.py", line 681, in __getitem__
+    raise KeyError(key) from None
+KeyError: 'airflow'
+[2023-06-08T09:53:46.616+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/main_task_DAG.py
+[2023-06-08T09:53:46.642+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/main_task_DAG.py took 0.045 seconds
+[2023-06-08T09:54:17.216+0000] {processor.py:153} INFO - Started process (PID=273) to work on /opt/airflow/dags/main_task_DAG.py
+[2023-06-08T09:54:17.219+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/main_task_DAG.py for tasks to queue
+[2023-06-08T09:54:17.221+0000] {logging_mixin.py:137} INFO - [2023-06-08T09:54:17.221+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/main_task_DAG.py
+[2023-06-08T09:54:17.236+0000] {logging_mixin.py:137} INFO - [2023-06-08T09:54:17.233+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/main_task_DAG.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/main_task_DAG.py", line 13, in <module>
+    user_name = os.environ["airflow"]
+  File "/usr/local/lib/python3.7/os.py", line 681, in __getitem__
+    raise KeyError(key) from None
+KeyError: 'airflow'
+[2023-06-08T09:54:17.238+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/main_task_DAG.py
+[2023-06-08T09:54:17.272+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/main_task_DAG.py took 0.063 seconds
+[2023-06-08T09:54:47.653+0000] {processor.py:153} INFO - Started process (PID=305) to work on /opt/airflow/dags/main_task_DAG.py
+[2023-06-08T09:54:47.655+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/main_task_DAG.py for tasks to queue
+[2023-06-08T09:54:47.657+0000] {logging_mixin.py:137} INFO - [2023-06-08T09:54:47.657+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/main_task_DAG.py
+[2023-06-08T09:54:47.668+0000] {logging_mixin.py:137} INFO - [2023-06-08T09:54:47.665+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/main_task_DAG.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/main_task_DAG.py", line 13, in <module>
+    user_name = os.environ["airflow"]
+  File "/usr/local/lib/python3.7/os.py", line 681, in __getitem__
+    raise KeyError(key) from None
+KeyError: 'airflow'
+[2023-06-08T09:54:47.670+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/main_task_DAG.py
+[2023-06-08T09:54:47.702+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/main_task_DAG.py took 0.055 seconds
+[2023-06-08T09:55:18.064+0000] {processor.py:153} INFO - Started process (PID=337) to work on /opt/airflow/dags/main_task_DAG.py
+[2023-06-08T09:55:18.066+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/main_task_DAG.py for tasks to queue
+[2023-06-08T09:55:18.068+0000] {logging_mixin.py:137} INFO - [2023-06-08T09:55:18.068+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/main_task_DAG.py
+[2023-06-08T09:55:18.078+0000] {logging_mixin.py:137} INFO - [2023-06-08T09:55:18.075+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/main_task_DAG.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/main_task_DAG.py", line 13, in <module>
+    user_name = os.environ["airflow"]
+  File "/usr/local/lib/python3.7/os.py", line 681, in __getitem__
+    raise KeyError(key) from None
+KeyError: 'airflow'
+[2023-06-08T09:55:18.081+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/main_task_DAG.py
+[2023-06-08T09:55:18.107+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/main_task_DAG.py took 0.047 seconds
+[2023-06-08T09:55:48.500+0000] {processor.py:153} INFO - Started process (PID=383) to work on /opt/airflow/dags/main_task_DAG.py
+[2023-06-08T09:55:48.502+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/main_task_DAG.py for tasks to queue
+[2023-06-08T09:55:48.503+0000] {logging_mixin.py:137} INFO - [2023-06-08T09:55:48.503+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/main_task_DAG.py
+[2023-06-08T09:55:48.513+0000] {logging_mixin.py:137} INFO - [2023-06-08T09:55:48.510+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/main_task_DAG.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/main_task_DAG.py", line 13, in <module>
+    user_name = os.environ["airflow"]
+  File "/usr/local/lib/python3.7/os.py", line 681, in __getitem__
+    raise KeyError(key) from None
+KeyError: 'airflow'
+[2023-06-08T09:55:48.514+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/main_task_DAG.py
+[2023-06-08T09:55:48.536+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/main_task_DAG.py took 0.040 seconds
+[2023-06-08T09:56:19.021+0000] {processor.py:153} INFO - Started process (PID=415) to work on /opt/airflow/dags/main_task_DAG.py
+[2023-06-08T09:56:19.024+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/main_task_DAG.py for tasks to queue
+[2023-06-08T09:56:19.027+0000] {logging_mixin.py:137} INFO - [2023-06-08T09:56:19.026+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/main_task_DAG.py
+[2023-06-08T09:56:19.039+0000] {logging_mixin.py:137} INFO - [2023-06-08T09:56:19.036+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/main_task_DAG.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/main_task_DAG.py", line 13, in <module>
+    user_name = os.environ["airflow"]
+  File "/usr/local/lib/python3.7/os.py", line 681, in __getitem__
+    raise KeyError(key) from None
+KeyError: 'airflow'
+[2023-06-08T09:56:19.041+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/main_task_DAG.py
+[2023-06-08T09:56:19.077+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/main_task_DAG.py took 0.060 seconds
+[2023-06-08T09:56:49.469+0000] {processor.py:153} INFO - Started process (PID=461) to work on /opt/airflow/dags/main_task_DAG.py
+[2023-06-08T09:56:49.472+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/main_task_DAG.py for tasks to queue
+[2023-06-08T09:56:49.474+0000] {logging_mixin.py:137} INFO - [2023-06-08T09:56:49.473+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/main_task_DAG.py
+[2023-06-08T09:56:49.482+0000] {logging_mixin.py:137} INFO - [2023-06-08T09:56:49.480+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/main_task_DAG.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/main_task_DAG.py", line 13, in <module>
+    user_name = os.environ["airflow"]
+  File "/usr/local/lib/python3.7/os.py", line 681, in __getitem__
+    raise KeyError(key) from None
+KeyError: 'airflow'
+[2023-06-08T09:56:49.484+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/main_task_DAG.py
+[2023-06-08T09:56:49.509+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/main_task_DAG.py took 0.044 seconds
+[2023-06-08T09:57:19.901+0000] {processor.py:153} INFO - Started process (PID=493) to work on /opt/airflow/dags/main_task_DAG.py
+[2023-06-08T09:57:19.903+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/main_task_DAG.py for tasks to queue
+[2023-06-08T09:57:19.906+0000] {logging_mixin.py:137} INFO - [2023-06-08T09:57:19.905+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/main_task_DAG.py
+[2023-06-08T09:57:19.916+0000] {logging_mixin.py:137} INFO - [2023-06-08T09:57:19.914+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/main_task_DAG.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/main_task_DAG.py", line 13, in <module>
+    user_name = os.environ["airflow"]
+  File "/usr/local/lib/python3.7/os.py", line 681, in __getitem__
+    raise KeyError(key) from None
+KeyError: 'airflow'
+[2023-06-08T09:57:19.918+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/main_task_DAG.py
+[2023-06-08T09:57:19.943+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/main_task_DAG.py took 0.046 seconds
+[2023-06-08T09:57:50.350+0000] {processor.py:153} INFO - Started process (PID=540) to work on /opt/airflow/dags/main_task_DAG.py
+[2023-06-08T09:57:50.353+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/main_task_DAG.py for tasks to queue
+[2023-06-08T09:57:50.355+0000] {logging_mixin.py:137} INFO - [2023-06-08T09:57:50.355+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/main_task_DAG.py
+[2023-06-08T09:57:50.370+0000] {logging_mixin.py:137} INFO - [2023-06-08T09:57:50.366+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/main_task_DAG.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/main_task_DAG.py", line 13, in <module>
+    user_name = os.environ["airflow"]
+  File "/usr/local/lib/python3.7/os.py", line 681, in __getitem__
+    raise KeyError(key) from None
+KeyError: 'airflow'
+[2023-06-08T09:57:50.373+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/main_task_DAG.py
+[2023-06-08T09:57:50.406+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/main_task_DAG.py took 0.061 seconds
+[2023-06-08T09:58:20.853+0000] {processor.py:153} INFO - Started process (PID=572) to work on /opt/airflow/dags/main_task_DAG.py
+[2023-06-08T09:58:20.858+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/main_task_DAG.py for tasks to queue
+[2023-06-08T09:58:20.862+0000] {logging_mixin.py:137} INFO - [2023-06-08T09:58:20.861+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/main_task_DAG.py
+[2023-06-08T09:58:20.884+0000] {logging_mixin.py:137} INFO - [2023-06-08T09:58:20.876+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/main_task_DAG.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/main_task_DAG.py", line 13, in <module>
+    user_name = os.environ["airflow"]
+  File "/usr/local/lib/python3.7/os.py", line 681, in __getitem__
+    raise KeyError(key) from None
+KeyError: 'airflow'
+[2023-06-08T09:58:20.888+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/main_task_DAG.py
+[2023-06-08T09:58:20.932+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/main_task_DAG.py took 0.088 seconds
+[2023-06-08T09:58:51.336+0000] {processor.py:153} INFO - Started process (PID=614) to work on /opt/airflow/dags/main_task_DAG.py
+[2023-06-08T09:58:51.338+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/main_task_DAG.py for tasks to queue
+[2023-06-08T09:58:51.340+0000] {logging_mixin.py:137} INFO - [2023-06-08T09:58:51.340+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/main_task_DAG.py
+[2023-06-08T09:58:51.351+0000] {logging_mixin.py:137} INFO - [2023-06-08T09:58:51.347+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/main_task_DAG.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/main_task_DAG.py", line 13, in <module>
+    user_name = os.environ["airflow"]
+  File "/usr/local/lib/python3.7/os.py", line 681, in __getitem__
+    raise KeyError(key) from None
+KeyError: 'airflow'
+[2023-06-08T09:58:51.352+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/main_task_DAG.py
+[2023-06-08T09:58:51.382+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/main_task_DAG.py took 0.052 seconds
+[2023-06-08T09:59:21.757+0000] {processor.py:153} INFO - Started process (PID=651) to work on /opt/airflow/dags/main_task_DAG.py
+[2023-06-08T09:59:21.760+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/main_task_DAG.py for tasks to queue
+[2023-06-08T09:59:21.763+0000] {logging_mixin.py:137} INFO - [2023-06-08T09:59:21.762+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/main_task_DAG.py
+[2023-06-08T09:59:21.774+0000] {logging_mixin.py:137} INFO - [2023-06-08T09:59:21.771+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/main_task_DAG.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/main_task_DAG.py", line 13, in <module>
+    user_name = os.environ["airflow"]
+  File "/usr/local/lib/python3.7/os.py", line 681, in __getitem__
+    raise KeyError(key) from None
+KeyError: 'airflow'
+[2023-06-08T09:59:21.776+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/main_task_DAG.py
+[2023-06-08T09:59:21.801+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/main_task_DAG.py took 0.049 seconds
+[2023-06-08T09:59:52.165+0000] {processor.py:153} INFO - Started process (PID=683) to work on /opt/airflow/dags/main_task_DAG.py
+[2023-06-08T09:59:52.166+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/main_task_DAG.py for tasks to queue
+[2023-06-08T09:59:52.168+0000] {logging_mixin.py:137} INFO - [2023-06-08T09:59:52.168+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/main_task_DAG.py
+[2023-06-08T09:59:52.178+0000] {logging_mixin.py:137} INFO - [2023-06-08T09:59:52.175+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/main_task_DAG.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/main_task_DAG.py", line 13, in <module>
+    user_name = os.environ["airflow"]
+  File "/usr/local/lib/python3.7/os.py", line 681, in __getitem__
+    raise KeyError(key) from None
+KeyError: 'airflow'
+[2023-06-08T09:59:52.200+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/main_task_DAG.py
+[2023-06-08T09:59:52.226+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/main_task_DAG.py took 0.066 seconds
+[2023-06-08T10:00:22.594+0000] {processor.py:153} INFO - Started process (PID=729) to work on /opt/airflow/dags/main_task_DAG.py
+[2023-06-08T10:00:22.597+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/main_task_DAG.py for tasks to queue
+[2023-06-08T10:00:22.599+0000] {logging_mixin.py:137} INFO - [2023-06-08T10:00:22.599+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/main_task_DAG.py
+[2023-06-08T10:00:22.608+0000] {logging_mixin.py:137} INFO - [2023-06-08T10:00:22.605+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/main_task_DAG.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/main_task_DAG.py", line 13, in <module>
+    user_name = os.environ["airflow"]
+  File "/usr/local/lib/python3.7/os.py", line 681, in __getitem__
+    raise KeyError(key) from None
+KeyError: 'airflow'
+[2023-06-08T10:00:22.609+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/main_task_DAG.py
+[2023-06-08T10:00:22.633+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/main_task_DAG.py took 0.043 seconds
+[2023-06-08T10:00:53.018+0000] {processor.py:153} INFO - Started process (PID=761) to work on /opt/airflow/dags/main_task_DAG.py
+[2023-06-08T10:00:53.020+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/main_task_DAG.py for tasks to queue
+[2023-06-08T10:00:53.022+0000] {logging_mixin.py:137} INFO - [2023-06-08T10:00:53.022+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/main_task_DAG.py
+[2023-06-08T10:00:53.031+0000] {logging_mixin.py:137} INFO - [2023-06-08T10:00:53.028+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/main_task_DAG.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/main_task_DAG.py", line 13, in <module>
+    user_name = os.environ["airflow"]
+  File "/usr/local/lib/python3.7/os.py", line 681, in __getitem__
+    raise KeyError(key) from None
+KeyError: 'airflow'
+[2023-06-08T10:00:53.032+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/main_task_DAG.py
+[2023-06-08T10:00:53.057+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/main_task_DAG.py took 0.043 seconds
+[2023-06-08T10:01:23.479+0000] {processor.py:153} INFO - Started process (PID=807) to work on /opt/airflow/dags/main_task_DAG.py
+[2023-06-08T10:01:23.482+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/main_task_DAG.py for tasks to queue
+[2023-06-08T10:01:23.484+0000] {logging_mixin.py:137} INFO - [2023-06-08T10:01:23.483+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/main_task_DAG.py
+[2023-06-08T10:01:23.493+0000] {logging_mixin.py:137} INFO - [2023-06-08T10:01:23.490+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/main_task_DAG.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/main_task_DAG.py", line 13, in <module>
+    user_name = os.environ["airflow"]
+  File "/usr/local/lib/python3.7/os.py", line 681, in __getitem__
+    raise KeyError(key) from None
+KeyError: 'airflow'
+[2023-06-08T10:01:23.495+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/main_task_DAG.py
+[2023-06-08T10:01:23.520+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/main_task_DAG.py took 0.046 seconds
+[2023-06-08T10:01:53.938+0000] {processor.py:153} INFO - Started process (PID=839) to work on /opt/airflow/dags/main_task_DAG.py
+[2023-06-08T10:01:53.940+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/main_task_DAG.py for tasks to queue
+[2023-06-08T10:01:53.942+0000] {logging_mixin.py:137} INFO - [2023-06-08T10:01:53.942+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/main_task_DAG.py
+[2023-06-08T10:01:53.951+0000] {logging_mixin.py:137} INFO - [2023-06-08T10:01:53.949+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/main_task_DAG.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/main_task_DAG.py", line 13, in <module>
+    user_name = os.environ["airflow"]
+  File "/usr/local/lib/python3.7/os.py", line 681, in __getitem__
+    raise KeyError(key) from None
+KeyError: 'airflow'
+[2023-06-08T10:01:53.952+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/main_task_DAG.py
+[2023-06-08T10:01:53.976+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/main_task_DAG.py took 0.043 seconds
+[2023-06-08T10:02:24.334+0000] {processor.py:153} INFO - Started process (PID=885) to work on /opt/airflow/dags/main_task_DAG.py
+[2023-06-08T10:02:24.336+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/main_task_DAG.py for tasks to queue
+[2023-06-08T10:02:24.338+0000] {logging_mixin.py:137} INFO - [2023-06-08T10:02:24.338+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/main_task_DAG.py
+[2023-06-08T10:02:24.347+0000] {logging_mixin.py:137} INFO - [2023-06-08T10:02:24.344+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/main_task_DAG.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/main_task_DAG.py", line 13, in <module>
+    user_name = os.environ["airflow"]
+  File "/usr/local/lib/python3.7/os.py", line 681, in __getitem__
+    raise KeyError(key) from None
+KeyError: 'airflow'
+[2023-06-08T10:02:24.348+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/main_task_DAG.py
+[2023-06-08T10:02:24.372+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/main_task_DAG.py took 0.042 seconds
+[2023-06-08T10:02:54.780+0000] {processor.py:153} INFO - Started process (PID=917) to work on /opt/airflow/dags/main_task_DAG.py
+[2023-06-08T10:02:54.782+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/main_task_DAG.py for tasks to queue
+[2023-06-08T10:02:54.784+0000] {logging_mixin.py:137} INFO - [2023-06-08T10:02:54.784+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/main_task_DAG.py
+[2023-06-08T10:02:54.796+0000] {logging_mixin.py:137} INFO - [2023-06-08T10:02:54.793+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/main_task_DAG.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/main_task_DAG.py", line 13, in <module>
+    user_name = os.environ["airflow"]
+  File "/usr/local/lib/python3.7/os.py", line 681, in __getitem__
+    raise KeyError(key) from None
+KeyError: 'airflow'
+[2023-06-08T10:02:54.798+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/main_task_DAG.py
+[2023-06-08T10:02:54.824+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/main_task_DAG.py took 0.049 seconds
+[2023-06-08T10:03:25.231+0000] {processor.py:153} INFO - Started process (PID=964) to work on /opt/airflow/dags/main_task_DAG.py
+[2023-06-08T10:03:25.233+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/main_task_DAG.py for tasks to queue
+[2023-06-08T10:03:25.235+0000] {logging_mixin.py:137} INFO - [2023-06-08T10:03:25.235+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/main_task_DAG.py
+[2023-06-08T10:03:25.248+0000] {logging_mixin.py:137} INFO - [2023-06-08T10:03:25.245+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/main_task_DAG.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/main_task_DAG.py", line 13, in <module>
+    user_name = os.environ["airflow"]
+  File "/usr/local/lib/python3.7/os.py", line 681, in __getitem__
+    raise KeyError(key) from None
+KeyError: 'airflow'
+[2023-06-08T10:03:25.250+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/main_task_DAG.py
+[2023-06-08T10:03:25.279+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/main_task_DAG.py took 0.053 seconds
+[2023-06-08T10:03:55.658+0000] {processor.py:153} INFO - Started process (PID=996) to work on /opt/airflow/dags/main_task_DAG.py
+[2023-06-08T10:03:55.660+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/main_task_DAG.py for tasks to queue
+[2023-06-08T10:03:55.662+0000] {logging_mixin.py:137} INFO - [2023-06-08T10:03:55.662+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/main_task_DAG.py
+[2023-06-08T10:03:55.671+0000] {logging_mixin.py:137} INFO - [2023-06-08T10:03:55.668+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/main_task_DAG.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/main_task_DAG.py", line 13, in <module>
+    user_name = os.environ["airflow"]
+  File "/usr/local/lib/python3.7/os.py", line 681, in __getitem__
+    raise KeyError(key) from None
+KeyError: 'airflow'
+[2023-06-08T10:03:55.673+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/main_task_DAG.py
+[2023-06-08T10:03:55.696+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/main_task_DAG.py took 0.042 seconds
+[2023-06-08T10:04:26.085+0000] {processor.py:153} INFO - Started process (PID=1042) to work on /opt/airflow/dags/main_task_DAG.py
+[2023-06-08T10:04:26.087+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/main_task_DAG.py for tasks to queue
+[2023-06-08T10:04:26.089+0000] {logging_mixin.py:137} INFO - [2023-06-08T10:04:26.088+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/main_task_DAG.py
+[2023-06-08T10:04:26.098+0000] {logging_mixin.py:137} INFO - [2023-06-08T10:04:26.095+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/main_task_DAG.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/main_task_DAG.py", line 13, in <module>
+    user_name = os.environ["airflow"]
+  File "/usr/local/lib/python3.7/os.py", line 681, in __getitem__
+    raise KeyError(key) from None
+KeyError: 'airflow'
+[2023-06-08T10:04:26.100+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/main_task_DAG.py
+[2023-06-08T10:04:26.126+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/main_task_DAG.py took 0.046 seconds
+[2023-06-08T10:04:56.551+0000] {processor.py:153} INFO - Started process (PID=1074) to work on /opt/airflow/dags/main_task_DAG.py
+[2023-06-08T10:04:56.553+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/main_task_DAG.py for tasks to queue
+[2023-06-08T10:04:56.555+0000] {logging_mixin.py:137} INFO - [2023-06-08T10:04:56.555+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/main_task_DAG.py
+[2023-06-08T10:04:56.569+0000] {logging_mixin.py:137} INFO - [2023-06-08T10:04:56.565+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/main_task_DAG.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/main_task_DAG.py", line 13, in <module>
+    user_name = os.environ["airflow"]
+  File "/usr/local/lib/python3.7/os.py", line 681, in __getitem__
+    raise KeyError(key) from None
+KeyError: 'airflow'
+[2023-06-08T10:04:56.571+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/main_task_DAG.py
+[2023-06-08T10:04:56.601+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/main_task_DAG.py took 0.055 seconds
+[2023-06-08T10:05:26.980+0000] {processor.py:153} INFO - Started process (PID=1120) to work on /opt/airflow/dags/main_task_DAG.py
+[2023-06-08T10:05:26.982+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/main_task_DAG.py for tasks to queue
+[2023-06-08T10:05:26.983+0000] {logging_mixin.py:137} INFO - [2023-06-08T10:05:26.983+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/main_task_DAG.py
+[2023-06-08T10:05:26.992+0000] {logging_mixin.py:137} INFO - [2023-06-08T10:05:26.990+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/main_task_DAG.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/main_task_DAG.py", line 13, in <module>
+    user_name = os.environ["airflow"]
+  File "/usr/local/lib/python3.7/os.py", line 681, in __getitem__
+    raise KeyError(key) from None
+KeyError: 'airflow'
+[2023-06-08T10:05:26.994+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/main_task_DAG.py
+[2023-06-08T10:05:27.017+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/main_task_DAG.py took 0.041 seconds
+[2023-06-08T10:05:57.370+0000] {processor.py:153} INFO - Started process (PID=1152) to work on /opt/airflow/dags/main_task_DAG.py
+[2023-06-08T10:05:57.372+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/main_task_DAG.py for tasks to queue
+[2023-06-08T10:05:57.374+0000] {logging_mixin.py:137} INFO - [2023-06-08T10:05:57.374+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/main_task_DAG.py
+[2023-06-08T10:05:57.384+0000] {logging_mixin.py:137} INFO - [2023-06-08T10:05:57.382+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/main_task_DAG.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/main_task_DAG.py", line 13, in <module>
+    user_name = os.environ["airflow"]
+  File "/usr/local/lib/python3.7/os.py", line 681, in __getitem__
+    raise KeyError(key) from None
+KeyError: 'airflow'
+[2023-06-08T10:05:57.385+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/main_task_DAG.py
+[2023-06-08T10:05:57.409+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/main_task_DAG.py took 0.043 seconds
+[2023-06-08T10:06:27.859+0000] {processor.py:153} INFO - Started process (PID=1184) to work on /opt/airflow/dags/main_task_DAG.py
+[2023-06-08T10:06:27.862+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/main_task_DAG.py for tasks to queue
+[2023-06-08T10:06:27.863+0000] {logging_mixin.py:137} INFO - [2023-06-08T10:06:27.863+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/main_task_DAG.py
+[2023-06-08T10:06:27.873+0000] {logging_mixin.py:137} INFO - [2023-06-08T10:06:27.870+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/main_task_DAG.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/main_task_DAG.py", line 13, in <module>
+    user_name = os.environ["airflow"]
+  File "/usr/local/lib/python3.7/os.py", line 681, in __getitem__
+    raise KeyError(key) from None
+KeyError: 'airflow'
+[2023-06-08T10:06:27.874+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/main_task_DAG.py
+[2023-06-08T10:06:27.897+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/main_task_DAG.py took 0.042 seconds
+[2023-06-08T10:06:58.284+0000] {processor.py:153} INFO - Started process (PID=1230) to work on /opt/airflow/dags/main_task_DAG.py
+[2023-06-08T10:06:58.287+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/main_task_DAG.py for tasks to queue
+[2023-06-08T10:06:58.289+0000] {logging_mixin.py:137} INFO - [2023-06-08T10:06:58.288+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/main_task_DAG.py
+[2023-06-08T10:06:58.299+0000] {logging_mixin.py:137} INFO - [2023-06-08T10:06:58.296+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/main_task_DAG.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/main_task_DAG.py", line 13, in <module>
+    user_name = os.environ["airflow"]
+  File "/usr/local/lib/python3.7/os.py", line 681, in __getitem__
+    raise KeyError(key) from None
+KeyError: 'airflow'
+[2023-06-08T10:06:58.301+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/main_task_DAG.py
+[2023-06-08T10:06:58.331+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/main_task_DAG.py took 0.052 seconds
+[2023-06-08T10:07:28.751+0000] {processor.py:153} INFO - Started process (PID=1262) to work on /opt/airflow/dags/main_task_DAG.py
+[2023-06-08T10:07:28.772+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/main_task_DAG.py for tasks to queue
+[2023-06-08T10:07:28.790+0000] {logging_mixin.py:137} INFO - [2023-06-08T10:07:28.790+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/main_task_DAG.py
+[2023-06-08T10:07:28.839+0000] {logging_mixin.py:137} INFO - [2023-06-08T10:07:28.835+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/main_task_DAG.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/main_task_DAG.py", line 13, in <module>
+    user_name = os.environ["airflow"]
+  File "/usr/local/lib/python3.7/os.py", line 681, in __getitem__
+    raise KeyError(key) from None
+KeyError: 'airflow'
+[2023-06-08T10:07:28.841+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/main_task_DAG.py
+[2023-06-08T10:07:28.876+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/main_task_DAG.py took 0.129 seconds
+[2023-06-08T10:07:59.344+0000] {processor.py:153} INFO - Started process (PID=1308) to work on /opt/airflow/dags/main_task_DAG.py
+[2023-06-08T10:07:59.347+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/main_task_DAG.py for tasks to queue
+[2023-06-08T10:07:59.350+0000] {logging_mixin.py:137} INFO - [2023-06-08T10:07:59.350+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/main_task_DAG.py
+[2023-06-08T10:07:59.365+0000] {logging_mixin.py:137} INFO - [2023-06-08T10:07:59.360+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/main_task_DAG.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/main_task_DAG.py", line 13, in <module>
+    user_name = os.environ["airflow"]
+  File "/usr/local/lib/python3.7/os.py", line 681, in __getitem__
+    raise KeyError(key) from None
+KeyError: 'airflow'
+[2023-06-08T10:07:59.367+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/main_task_DAG.py
+[2023-06-08T10:07:59.400+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/main_task_DAG.py took 0.062 seconds
+[2023-06-08T10:08:29.822+0000] {processor.py:153} INFO - Started process (PID=1340) to work on /opt/airflow/dags/main_task_DAG.py
+[2023-06-08T10:08:29.825+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/main_task_DAG.py for tasks to queue
+[2023-06-08T10:08:29.827+0000] {logging_mixin.py:137} INFO - [2023-06-08T10:08:29.826+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/main_task_DAG.py
+[2023-06-08T10:08:29.837+0000] {logging_mixin.py:137} INFO - [2023-06-08T10:08:29.834+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/main_task_DAG.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/main_task_DAG.py", line 13, in <module>
+    user_name = os.environ["airflow"]
+  File "/usr/local/lib/python3.7/os.py", line 681, in __getitem__
+    raise KeyError(key) from None
+KeyError: 'airflow'
+[2023-06-08T10:08:29.839+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/main_task_DAG.py
+[2023-06-08T10:08:29.865+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/main_task_DAG.py took 0.047 seconds
+[2023-06-08T10:09:00.258+0000] {processor.py:153} INFO - Started process (PID=1372) to work on /opt/airflow/dags/main_task_DAG.py
+[2023-06-08T10:09:00.261+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/main_task_DAG.py for tasks to queue
+[2023-06-08T10:09:00.264+0000] {logging_mixin.py:137} INFO - [2023-06-08T10:09:00.264+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/main_task_DAG.py
+[2023-06-08T10:09:00.276+0000] {logging_mixin.py:137} INFO - [2023-06-08T10:09:00.272+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/main_task_DAG.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/main_task_DAG.py", line 13, in <module>
+    user_name = os.environ["airflow"]
+  File "/usr/local/lib/python3.7/os.py", line 681, in __getitem__
+    raise KeyError(key) from None
+KeyError: 'airflow'
+[2023-06-08T10:09:00.278+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/main_task_DAG.py
+[2023-06-08T10:09:00.308+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/main_task_DAG.py took 0.055 seconds
+[2023-06-08T10:09:30.698+0000] {processor.py:153} INFO - Started process (PID=1418) to work on /opt/airflow/dags/main_task_DAG.py
+[2023-06-08T10:09:30.699+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/main_task_DAG.py for tasks to queue
+[2023-06-08T10:09:30.701+0000] {logging_mixin.py:137} INFO - [2023-06-08T10:09:30.701+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/main_task_DAG.py
+[2023-06-08T10:09:30.710+0000] {logging_mixin.py:137} INFO - [2023-06-08T10:09:30.708+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/main_task_DAG.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/main_task_DAG.py", line 13, in <module>
+    user_name = os.environ["airflow"]
+  File "/usr/local/lib/python3.7/os.py", line 681, in __getitem__
+    raise KeyError(key) from None
+KeyError: 'airflow'
+[2023-06-08T10:09:30.712+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/main_task_DAG.py
+[2023-06-08T10:09:30.733+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/main_task_DAG.py took 0.040 seconds
+[2023-06-08T10:10:01.102+0000] {processor.py:153} INFO - Started process (PID=1450) to work on /opt/airflow/dags/main_task_DAG.py
+[2023-06-08T10:10:01.105+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/main_task_DAG.py for tasks to queue
+[2023-06-08T10:10:01.106+0000] {logging_mixin.py:137} INFO - [2023-06-08T10:10:01.106+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/main_task_DAG.py
+[2023-06-08T10:10:01.118+0000] {logging_mixin.py:137} INFO - [2023-06-08T10:10:01.115+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/main_task_DAG.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/main_task_DAG.py", line 13, in <module>
+    user_name = os.environ["airflow"]
+  File "/usr/local/lib/python3.7/os.py", line 681, in __getitem__
+    raise KeyError(key) from None
+KeyError: 'airflow'
+[2023-06-08T10:10:01.119+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/main_task_DAG.py
+[2023-06-08T10:10:01.145+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/main_task_DAG.py took 0.048 seconds
+[2023-06-08T10:10:31.564+0000] {processor.py:153} INFO - Started process (PID=1496) to work on /opt/airflow/dags/main_task_DAG.py
+[2023-06-08T10:10:31.569+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/main_task_DAG.py for tasks to queue
+[2023-06-08T10:10:31.572+0000] {logging_mixin.py:137} INFO - [2023-06-08T10:10:31.571+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/main_task_DAG.py
+[2023-06-08T10:10:31.587+0000] {logging_mixin.py:137} INFO - [2023-06-08T10:10:31.584+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/main_task_DAG.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/main_task_DAG.py", line 13, in <module>
+    user_name = os.environ["airflow"]
+  File "/usr/local/lib/python3.7/os.py", line 681, in __getitem__
+    raise KeyError(key) from None
+KeyError: 'airflow'
+[2023-06-08T10:10:31.589+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/main_task_DAG.py
+[2023-06-08T10:10:31.620+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/main_task_DAG.py took 0.061 seconds
+[2023-06-08T10:11:02.022+0000] {processor.py:153} INFO - Started process (PID=1528) to work on /opt/airflow/dags/main_task_DAG.py
+[2023-06-08T10:11:02.025+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/main_task_DAG.py for tasks to queue
+[2023-06-08T10:11:02.028+0000] {logging_mixin.py:137} INFO - [2023-06-08T10:11:02.028+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/main_task_DAG.py
+[2023-06-08T10:11:02.041+0000] {logging_mixin.py:137} INFO - [2023-06-08T10:11:02.038+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/main_task_DAG.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/main_task_DAG.py", line 13, in <module>
+    user_name = os.environ["airflow"]
+  File "/usr/local/lib/python3.7/os.py", line 681, in __getitem__
+    raise KeyError(key) from None
+KeyError: 'airflow'
+[2023-06-08T10:11:02.043+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/main_task_DAG.py
+[2023-06-08T10:11:02.074+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/main_task_DAG.py took 0.056 seconds
+[2023-06-08T10:11:32.540+0000] {processor.py:153} INFO - Started process (PID=1569) to work on /opt/airflow/dags/main_task_DAG.py
+[2023-06-08T10:11:32.543+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/main_task_DAG.py for tasks to queue
+[2023-06-08T10:11:32.545+0000] {logging_mixin.py:137} INFO - [2023-06-08T10:11:32.545+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/main_task_DAG.py
+[2023-06-08T10:11:32.557+0000] {logging_mixin.py:137} INFO - [2023-06-08T10:11:32.554+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/main_task_DAG.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/main_task_DAG.py", line 13, in <module>
+    user_name = os.environ["airflow"]
+  File "/usr/local/lib/python3.7/os.py", line 681, in __getitem__
+    raise KeyError(key) from None
+KeyError: 'airflow'
+[2023-06-08T10:11:32.560+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/main_task_DAG.py
+[2023-06-08T10:11:32.591+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/main_task_DAG.py took 0.058 seconds
+[2023-06-08T10:12:02.965+0000] {processor.py:153} INFO - Started process (PID=1607) to work on /opt/airflow/dags/main_task_DAG.py
+[2023-06-08T10:12:02.967+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/main_task_DAG.py for tasks to queue
+[2023-06-08T10:12:02.969+0000] {logging_mixin.py:137} INFO - [2023-06-08T10:12:02.969+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/main_task_DAG.py
+[2023-06-08T10:12:02.978+0000] {logging_mixin.py:137} INFO - [2023-06-08T10:12:02.975+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/main_task_DAG.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/main_task_DAG.py", line 13, in <module>
+    user_name = os.environ["airflow"]
+  File "/usr/local/lib/python3.7/os.py", line 681, in __getitem__
+    raise KeyError(key) from None
+KeyError: 'airflow'
+[2023-06-08T10:12:02.979+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/main_task_DAG.py
+[2023-06-08T10:12:03.003+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/main_task_DAG.py took 0.042 seconds
+[2023-06-08T10:12:33.409+0000] {processor.py:153} INFO - Started process (PID=1639) to work on /opt/airflow/dags/main_task_DAG.py
+[2023-06-08T10:12:33.412+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/main_task_DAG.py for tasks to queue
+[2023-06-08T10:12:33.415+0000] {logging_mixin.py:137} INFO - [2023-06-08T10:12:33.415+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/main_task_DAG.py
+[2023-06-08T10:12:33.428+0000] {logging_mixin.py:137} INFO - [2023-06-08T10:12:33.423+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/main_task_DAG.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/main_task_DAG.py", line 13, in <module>
+    user_name = os.environ["airflow"]
+  File "/usr/local/lib/python3.7/os.py", line 681, in __getitem__
+    raise KeyError(key) from None
+KeyError: 'airflow'
+[2023-06-08T10:12:33.429+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/main_task_DAG.py
+[2023-06-08T10:12:33.460+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/main_task_DAG.py took 0.056 seconds
+[2023-06-08T10:13:03.888+0000] {processor.py:153} INFO - Started process (PID=1685) to work on /opt/airflow/dags/main_task_DAG.py
+[2023-06-08T10:13:03.891+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/main_task_DAG.py for tasks to queue
+[2023-06-08T10:13:03.893+0000] {logging_mixin.py:137} INFO - [2023-06-08T10:13:03.893+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/main_task_DAG.py
+[2023-06-08T10:13:03.904+0000] {logging_mixin.py:137} INFO - [2023-06-08T10:13:03.901+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/main_task_DAG.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/main_task_DAG.py", line 13, in <module>
+    user_name = os.environ["airflow"]
+  File "/usr/local/lib/python3.7/os.py", line 681, in __getitem__
+    raise KeyError(key) from None
+KeyError: 'airflow'
+[2023-06-08T10:13:03.906+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/main_task_DAG.py
+[2023-06-08T10:13:03.931+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/main_task_DAG.py took 0.047 seconds
+[2023-06-08T10:13:34.354+0000] {processor.py:153} INFO - Started process (PID=1717) to work on /opt/airflow/dags/main_task_DAG.py
+[2023-06-08T10:13:34.357+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/main_task_DAG.py for tasks to queue
+[2023-06-08T10:13:34.360+0000] {logging_mixin.py:137} INFO - [2023-06-08T10:13:34.360+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/main_task_DAG.py
+[2023-06-08T10:13:34.375+0000] {logging_mixin.py:137} INFO - [2023-06-08T10:13:34.370+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/main_task_DAG.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/main_task_DAG.py", line 13, in <module>
+    user_name = os.environ["airflow"]
+  File "/usr/local/lib/python3.7/os.py", line 681, in __getitem__
+    raise KeyError(key) from None
+KeyError: 'airflow'
+[2023-06-08T10:13:34.377+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/main_task_DAG.py
+[2023-06-08T10:13:34.413+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/main_task_DAG.py took 0.064 seconds
+[2023-06-08T10:14:04.768+0000] {processor.py:153} INFO - Started process (PID=1762) to work on /opt/airflow/dags/main_task_DAG.py
+[2023-06-08T10:14:04.770+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/main_task_DAG.py for tasks to queue
+[2023-06-08T10:14:04.772+0000] {logging_mixin.py:137} INFO - [2023-06-08T10:14:04.772+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/main_task_DAG.py
+[2023-06-08T10:14:04.782+0000] {logging_mixin.py:137} INFO - [2023-06-08T10:14:04.779+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/main_task_DAG.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/main_task_DAG.py", line 13, in <module>
+    user_name = os.environ["airflow"]
+  File "/usr/local/lib/python3.7/os.py", line 681, in __getitem__
+    raise KeyError(key) from None
+KeyError: 'airflow'
+[2023-06-08T10:14:04.783+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/main_task_DAG.py
+[2023-06-08T10:14:04.809+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/main_task_DAG.py took 0.045 seconds
+[2023-06-08T10:14:35.114+0000] {processor.py:153} INFO - Started process (PID=1794) to work on /opt/airflow/dags/main_task_DAG.py
+[2023-06-08T10:14:35.116+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/main_task_DAG.py for tasks to queue
+[2023-06-08T10:14:35.118+0000] {logging_mixin.py:137} INFO - [2023-06-08T10:14:35.118+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/main_task_DAG.py
+[2023-06-08T10:14:35.127+0000] {logging_mixin.py:137} INFO - [2023-06-08T10:14:35.125+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/main_task_DAG.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/main_task_DAG.py", line 13, in <module>
+    user_name = os.environ["airflow"]
+  File "/usr/local/lib/python3.7/os.py", line 681, in __getitem__
+    raise KeyError(key) from None
+KeyError: 'airflow'
+[2023-06-08T10:14:35.129+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/main_task_DAG.py
+[2023-06-08T10:14:35.155+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/main_task_DAG.py took 0.046 seconds
