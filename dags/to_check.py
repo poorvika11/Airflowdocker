@@ -5,10 +5,6 @@ from airflow import DAG
 from airflow.providers.postgres.hooks.postgres import PostgresHook
 from airflow.operators.python_operator import PythonOperator
 
-variable=Variable.get("variables",deserialize_json=True)
-schedule_interval= variable["executed_time"]
-start_date= variable["Schedule_time"]
-
 
 def check_dag_run_status():
     postgres_hook = PostgresHook(postgres_conn_id='postgres_localhost')
