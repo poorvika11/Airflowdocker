@@ -1,4 +1,3 @@
-import json
 
 from datetime import datetime
 from airflow import DAG
@@ -79,7 +78,7 @@ default_args = {
     'catchup': False
 }
 
-with DAG('dag_run_check', default_args=default_args, schedule_interval=None) as dag:
+with DAG('dag_run_check', default_args=default_args, schedule_interval='0 */6 * * *') as dag:
     check_all_dag_runs = PythonOperator(
         task_id='check_dag_run_status',
         python_callable=check_dag_run_status
